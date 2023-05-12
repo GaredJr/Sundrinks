@@ -10,6 +10,7 @@
 :root {
     --purple: #865DFF;
     --background: #191825;
+    --backgroundDarker: #09090b;
 }
 body {
     font-family: 'Montserrat Alternates', sans-serif !important;
@@ -19,14 +20,16 @@ body {
     border-width: 2px !important;
     border-radius: 7px !important;
     border-color: white !important;
-    box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
+    box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45);
+-webkit-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45);
+-moz-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45);
+    /*box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
     -webkit-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
     -moz-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
+    z-index: 5 !important;*/
 }
 .card-img-top {
     z-index: 0;
-}
-    --backgroundDarker: #09090b;
 }
 
 .bg-main {

@@ -173,3 +173,8 @@ footer {
 .navhov:hover {
     color: #797979 !important;
 }
+
+.profile-pic {
+    border-radius: % !important;
+  }
+  

@@ -40,6 +40,10 @@ body {
     z-index: 0;
 }
 
+.navbar-sticky {
+    position: sticky !important;
+}
+
 .bg-main {
     background-color: var(--background) !important;
 }

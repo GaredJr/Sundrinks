@@ -22,3 +22,15 @@
 .bg-purple {
     background-color: var(--purple);
 }
+
+
+.btn-primary {
+    background-color: var(--purple) !important;
+    border: none !important;
+    /* height: 40px !important; */
+ }
+
+.btn-primary:hover {
+    background-color: var(--background) !important;
+    transition: 0.3s all !important;
+} 

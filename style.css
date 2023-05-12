@@ -20,9 +20,9 @@ body {
     border-width: 2px !important;
     border-radius: 7px !important;
     border-color: white !important;
-    box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45);
--webkit-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45);
--moz-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45);
+    box-shadow: 1px -1px 23px 5px rgba(134,93,255,0.45);
+-webkit-box-shadow: 1px -1px 23px 5px rgba(134,93,255,0.45);
+-moz-box-shadow: 1px -1px 23px 5px rgba(134,93,255,0.45);
     /*box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
     -webkit-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
     -moz-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;

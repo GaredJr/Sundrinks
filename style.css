@@ -173,4 +173,29 @@ footer {
 .navhov:hover {
     color: #797979 !important;
 }
-
+.pfp {
+    position: relative;
+    width: 100px !important;
+    border-radius: 50px !important;
+    left: calc(50% - 50px) !important;
+    border-color: var(--backgroundDarker) !important;
+    border-width: 5px !important;
+    border-style: solid;
+    top: -50px;
+}
+.dssc {
+    width: 400px !important;
+}
+.p55 {
+    position: relative;
+    top: -50px;
+    padding-bottom: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.p54 {
+    padding-bottom: 20px;
+}
+.p53 {
+    padding-top: 15px;
+}

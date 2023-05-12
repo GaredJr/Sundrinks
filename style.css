@@ -25,6 +25,10 @@ body {
     transition-property: unset;
     background-color: var(--backgroundDarker) !important;
     color: white !important;
+    border-color: white !important;
+    box-shadow: 1px -1px 23px 5px rgba(134,93,255,0.45);
+    -webkit-box-shadow: 1px -1px 23px 5px rgba(134,93,255,0.45);
+    -moz-box-shadow: 1px -1px 23px 5px rgba(134,93,255,0.45);
     /*box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
     -webkit-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
     -moz-box-shadow: 1px -1px 23px 5px rgba(253,0,212,0.45), 1px -1px 23px 5px rgba(253,0,212,0.45) inset;
@@ -41,13 +45,25 @@ body {
 }
 
 .bg-main {
-    background-color: var(--background);
+    background-color: var(--background) !important;
 }
 
 .bg-darker {
-    background-color: var(--backgroundDarker);
+    background-color: var(--backgroundDarker) !important;
 }
 
 .bg-purple {
     background-color: var(--purple);
 }
+
+
+.btn-primary {
+    background-color: var(--purple) !important;
+    border: none !important;
+    /* height: 40px !important; */
+ }
+
+.btn-primary:hover {
+    background-color: var(--background) !important;
+    transition: 0.3s all !important;
+} 

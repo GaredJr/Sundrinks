@@ -116,28 +116,13 @@ body {
     box-shadow:none;
     outline:none;
     color:inherit;
-    text-indent:9px;
+    text-align: left;
+    text-transform: capitalize;
     height:45px;
-    margin-right:10px;
     min-width:250px;
 }
  
-.newsletter-subscribe form .form-control-message {
-    background:#eff1f4;
-    border:none;
-    border-radius:3px;
-    margin: 20px;
-    box-shadow:none;
-    outline:none;
-    color:inherit;
-    text-indent:9px;
-    height:45px;
-
-    margin-right: 10px;
-    min-width:250px;
-}
   
-
 
 .newsletter-subscribe form .btn {
     display: block;
@@ -193,6 +178,7 @@ footer {
 
 
 .h-00 {
-    height: 120px !important;
+    margin-top: 35px !important;
+    height: 70px !important;
 }
 

@@ -137,4 +137,15 @@ body {
     color:#fff;
     outline:none !important;
 }
-  
+.inp-outline-light {
+    color: white !important;
+    border-color: white !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-radius: 5px !important;
+    transition: 0.5s !important;
+}
+.inp-outline-light:focus {
+    background-color: var(--backgroundDarker) !important;
+    color: #865DFF !important;
+}

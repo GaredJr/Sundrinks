@@ -8,4 +8,17 @@
 :root {
     --purple: #865DFF;
     --background: #191825;
-  }
+    --backgroundDarker: #09090b;
+}
+
+.bg-main {
+    background-color: var(--background);
+}
+
+.bg-darker {
+    background-color: var(--backgroundDarker);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}

@@ -40,6 +40,9 @@ body {
     z-index: 0;
 }
 
+.rounded {
+    border-radius: 50px !important;
+}
 
 .navbar-sticky {
     position: sticky !important;

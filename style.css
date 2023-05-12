@@ -20,7 +20,7 @@ body {
 .card {
     border-width: 2px !important;
     border-radius: 7px !important;
-    border-color: var(--purple) !important;
+    border-color: var(--backgroundDarker) !important;
     transition: 0.5s;
     transition-property: unset;
     background-color: var(--backgroundDarker) !important;

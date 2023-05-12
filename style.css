@@ -121,7 +121,24 @@ body {
     margin-right:10px;
     min-width:250px;
 }
+ 
+.newsletter-subscribe form .form-control-message {
+    background:#eff1f4;
+    border:none;
+    border-radius:3px;
+    margin: 20px;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+    text-indent:9px;
+    height:45px;
+
+    margin-right: 10px;
+    min-width:250px;
+}
   
+
+
 .newsletter-subscribe form .btn {
     display: block;
     margin: 0 auto;
@@ -172,5 +189,10 @@ footer {
 }
 .navhov:hover {
     color: #797979 !important;
+}
+
+
+.h-00 {
+    height: 120px !important;
 }
 

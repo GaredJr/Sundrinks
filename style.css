@@ -3,3 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+:root {
+    --purple: #865DFF;
+    --background: #191825;
+  }
